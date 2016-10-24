@@ -12,7 +12,7 @@ function copy_test(options, fn) {
     if (once) return;
     once = true;
     fn(err, files);
-  })
+  });
 }
 
 describe('metalsmith-copy', function() {
@@ -140,4 +140,3 @@ describe('metalsmith-copy', function() {
     });
   });
 });
-

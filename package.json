@@ -22,6 +22,8 @@
   "license": "MIT",
   "dependencies": {
     "debug": "^0.8.1",
+    "diff": "^3.0.1",
+    "fs": "0.0.1-security",
     "lodash": "^2.4.1",
     "minimatch": "^0.2.14"
   },
